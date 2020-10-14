@@ -15,16 +15,17 @@ public class Main {
                 int differenz = wert1 - wert2;
                 int multiplikation = wert1*wert2;
                 int division = wert1/wert2;
+                int rest = wert1%wert2;
                 System.out.printf("Ihr erster wert: %d %n",wert1);
                 System.out.printf("Ihr zweiter wert: %d %n",wert2);
                 System.out.printf("Summe der Werte: %d %n",summe);
-                System.out.printf("Summe der Werte: %d %n",differenz);
-                System.out.printf("Summe der Werte: %d %n",multiplikation);
-                        System.out.printf("Summe der Werte: %d %n",division);
-
+                System.out.printf("Differenz der Werte: %d %n",differenz);
+                System.out.printf("Produkt der Werte: %d %n",multiplikation);
+                System.out.printf("Division der Werte: %d %n",division);
+                System.out.printf("Bei der Divison von %d und %d ergibt sich ein Rest von %d %n",wert1,wert2,rest);
             }
         catch (InputMismatchException ex){
-            System.out.printf("Geben Sie bitte einen gültigen (numeriscehn) Wert ein");
+            System.out.printf("Geben Sie bitte einen gültigen (numerischen) Wert ein");
             }
     }
 }
