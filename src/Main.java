@@ -4,9 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        boolean b = true;
-        while (b){
-            try {
+                    try {
                 System.out.printf("Geben Sie den ersten Wert ein: %n");
                 int wert1 = sc.nextInt();
 
@@ -15,15 +13,16 @@ public class Main {
 
                 int summe = wert1 + wert2;
                 int differenz = wert1 - wert2;
+                int multiplication = wert1*wert2;
                 System.out.printf("Ihr erster wert: %d %n",wert1);
                 System.out.printf("Ihr zweiter wert: %d %n",wert2);
                 System.out.printf("Summe der Werte: %d %n",summe);
                 System.out.printf("Summe der Werte: %d %n",differenz);
-                b=false;
+                System.out.printf("Summe der Werte: %d %n",multiplication);
+
             }
         catch (InputMismatchException ex){
             System.out.printf("Geben Sie bitte einen gültigen (numeriscehn) Wert ein");
-
-        }
+            }
     }
-}}
+}
