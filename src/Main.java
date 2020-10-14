@@ -13,12 +13,14 @@ public class Main {
 
                 int summe = wert1 + wert2;
                 int differenz = wert1 - wert2;
-                int multiplication = wert1*wert2;
+                int multiplikation = wert1*wert2;
+                int division = wert1/wert2;
                 System.out.printf("Ihr erster wert: %d %n",wert1);
                 System.out.printf("Ihr zweiter wert: %d %n",wert2);
                 System.out.printf("Summe der Werte: %d %n",summe);
                 System.out.printf("Summe der Werte: %d %n",differenz);
-                System.out.printf("Summe der Werte: %d %n",multiplication);
+                System.out.printf("Summe der Werte: %d %n",multiplikation);
+                        System.out.printf("Summe der Werte: %d %n",division);
 
             }
         catch (InputMismatchException ex){
