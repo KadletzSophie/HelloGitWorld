@@ -14,9 +14,11 @@ public class Main {
                 int wert2 = sc.nextInt();
 
                 int summe = wert1 + wert2;
+                int differenz = wert1 - wert2;
                 System.out.printf("Ihr erster wert: %d %n",wert1);
                 System.out.printf("Ihr zweiter wert: %d %n",wert2);
                 System.out.printf("Summe der Werte: %d %n",summe);
+                System.out.printf("Summe der Werte: %d %n",differenz);
                 b=false;
             }
         catch (InputMismatchException ex){
